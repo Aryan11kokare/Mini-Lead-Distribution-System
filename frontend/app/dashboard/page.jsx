@@ -25,11 +25,11 @@ export default function DashboardPage() {
     fetchDashboard();
 
     // REALTIME POLLING
-    // const interval = setInterval(() => {
-    //   fetchDashboard();
-    // }, 3000);
+    const interval = setInterval(() => {
+      fetchDashboard();
+    }, 5000);
 
-    // return () => clearInterval(interval);
+    return () => clearInterval(interval);
   }, []);
 
   if (loading) {
