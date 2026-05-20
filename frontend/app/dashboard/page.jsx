@@ -23,13 +23,6 @@ export default function DashboardPage() {
 
   useEffect(() => {
     fetchDashboard();
-
-    // REALTIME POLLING
-    // const interval = setInterval(() => {
-    //   fetchDashboard();
-    // }, 3000);
-
-    // return () => clearInterval(interval);
   }, []);
 
   if (loading) {
