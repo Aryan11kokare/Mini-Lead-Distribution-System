@@ -5,59 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mini Lead Distribution System</title>
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 40px;
-      line-height: 1.7;
-      background-color: #f8f9fa;
-      color: #222;
-    }
 
-    h1 {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    h2 {
-      margin-top: 40px;
-      color: #111;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 10px;
-    }
-
-    .section {
-      background: white;
-      padding: 25px;
-      border-radius: 10px;
-      margin-bottom: 30px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-    }
-
-    code {
-      background: #eee;
-      padding: 2px 6px;
-      border-radius: 4px;
-    }
-
-    pre {
-      background: #1e1e1e;
-      color: #fff;
-      padding: 15px;
-      border-radius: 8px;
-      overflow-x: auto;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-  </style>
 </head>
 
 <body>
